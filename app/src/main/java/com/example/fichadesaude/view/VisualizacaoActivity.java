@@ -25,6 +25,7 @@ public class VisualizacaoActivity extends AppCompatActivity {
         fichaId = getIntent().getIntExtra("FICHA_ID", -1);
         if (fichaId == -1) {
             finish();
+        }
 
         txtNome = findViewById(R.id.txtNome);
         txtIdade = findViewById(R.id.txtIdade);
